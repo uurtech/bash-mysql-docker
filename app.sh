@@ -6,7 +6,7 @@ echo "test"
 sleep 10
 # Connect to MySQL and run the query
 while true; do
-    random_number=$((1 + $RANDOM % 10))
+    random_number=$((1 + $RANDOM % 4))
 
 
     export NEW_QUERY="${QUERY} ${random_number};"
